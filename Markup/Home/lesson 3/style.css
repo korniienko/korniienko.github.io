@@ -9,7 +9,6 @@ em {background-color: green; color: white}
 thead, ul {font-weight: bold;}
 ol {font-weight: normal}
 tbody td:nth-child(1) {color: orange}
-tbody {background-color: green}
-tbody td:nth-child(4n+1) {background-color: white}
+tbody td:nth-child(n+2) {background-color: green}
 
 
