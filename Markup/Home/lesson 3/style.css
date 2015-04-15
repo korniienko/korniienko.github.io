@@ -1,14 +1,15 @@
 h1 {color: orange; text-align: right}
 p:first-letter {color: red; font-size: 30px}
 em {background-color: green; color: white}
-[id="allotment"] h2 {color:orange}
-[id="warehouse"] h2 {color: blue}
+#allotment h2 {color:orange}
+#warehouse h2 {color: blue}
 .fruits-list {color: gray}
 #warehouse .fruits-list {color: green}
 .vegetables-list {color: red}
 thead, ul {font-weight: bold;}
 ol {font-weight: normal}
-tbody td:nth-child(1) {color: orange}
+td {background-color: white; text-align:center}
+tbody td:nth-child(1) {color: orange; text-align:left}
 tbody td:nth-child(n+2) {background-color: green}
 
 
