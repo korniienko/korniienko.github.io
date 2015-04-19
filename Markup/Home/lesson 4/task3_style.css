@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Tahoma", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: #a23cd0;
+    line-height: 22px;
+
+}
+.container
+{
+    width: 450px;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a0a0a0;
+    background-color: white;
+}
+.first
+{
+    width: 90px;
+    float: left;
+    margin-top: 9px;
+
+}
+.last
+{
+    width: 90px;
+    float: right;
+    margin-top: 9px;
+
+}
+.point
+{
+    width: 270px;
+    height: 40px;
+    position: relative;
+    margin: auto;
+    /*background-color: #a64dff;*/
+
+}
+ul{
+    margin-left: 0;
+    margin-top: 0;
+    padding:0;
+    list-style:none;
+}
+li{
+    float:left;
+    width:22px;
+    height:22px;
+    position: relative;
+    margin: 9px 3px;
+    border-radius:4px;
+    background:white;
+    border:1px solid #ccc;
+    cursor:pointer;
+    font-size:12px;
+    font-family:"Tahoma", sans-serif;
+}
+li:hover
+{
+    background-color: #a23cd0;
+    border-color: #a23cd0;
+    color: white;
+}
+.right
+{
+    padding-left: 3px;
+    padding-right: 5px;
+}
+.right:after
+{
+  content: "\00bb";
+    padding-left: 3px;
+
+}
+.left
+{
+    padding-right: 3px;
+    padding-left: 5px;
+}
+.left:before
+{
+    content: "\00ab";
+    padding-right: 3px;
+}
+.left:hover
+{
+    cursor:pointer;
+}
+.right:hover
+{
+    cursor:pointer;
+}
+.none
+{
+    visibility: hidden;
+}
+.none:after
+{
+    visibility: visible;
+    content: "...";
+    padding-right: 4px;
+}
+.none:hover
+{
+    color: #a23cd0;
+}
