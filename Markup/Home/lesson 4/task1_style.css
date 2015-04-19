@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+}
+
+.top-menu-all
+{
+    height: 40px;
+    background-color: #a64dff;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.top-menu
+{
+    width: 900px;
+    height: 40px;
+    position: relative;
+    margin: auto;
+}
+.top-menu div a
+{
+    display: inline-block;
+    padding: 0 30px;
+    color: white;
+    text-decoration:none;
+    font-family: Impact;
+    text-transform:uppercase;
+    line-height:40px;
+    font-size:20px;
+
+}
+.top-menu div a:hover
+{
+    background-color: #eee;
+    color: #a0a0a0;
+}
