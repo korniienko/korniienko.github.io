@@ -9,6 +9,7 @@
     background-color: #a64dff;
     width: 100%;
     margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 .top-menu
@@ -16,7 +17,7 @@
     width: 900px;
     height: 40px;
     position: relative;
-    margin: auto;
+    margin: 0 auto;
 }
 .top-menu div a
 {
