@@ -15,8 +15,9 @@
 {
     width: 900px;
     height: 40px;
-    position: relative;
-    margin: 0 auto;
+    position: absolute;
+    margin: 0 50%;
+    left: -450px;
 }
 ul
 {
@@ -25,8 +26,7 @@ ul
 }
 .top-menu ul li
 {
-   float: left;
-    position: relative;
+    float: left;
 
 }
 .top-menu li a {
@@ -47,11 +47,11 @@ ul
 }
 .dropdown
 {
-    width: 100%;
+    width: 100vw;
     height: 36px;
-    position: fixed;
-    left: 0;
-    padding-left: 26%;
+    position: absolute;
+    left: -60%;
+    padding-left: 60%;
     background-color: #eee;
     box-shadow: 0 2px 1px 1px rgba(0,0,0,0.1);
     display: none;
