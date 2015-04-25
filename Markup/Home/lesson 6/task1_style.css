@@ -15,14 +15,13 @@ body
     background-color: white;
     overflow: hidden;
     margin-top: 50px;
-    position: absolute;
 
 }
 .offers h2
 {
     color: #35495a ;
     text-transform: uppercase;
-    font-family: Trebuchet MS;
+    font-family: Trebuchet, sans-serif;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -30,9 +29,36 @@ body
     margin-bottom: 46px;
     white-space: nowrap;
 }
-
-.offer-middle
+.offer__inner
 {
+    width: 890px;
+    margin: 0 auto;
+}
+.offer__right, .offer__left
+{
+    display: inline-block;
+    width: 288px;
+    height: 440px;
+    background-color: white;
+    border: solid 1px #e8eaec;
+    border-radius: 3px;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 52px;
+}
+.offer__right
+{
+    position: relative;
+    right: 6px;
+}
+.offer__left
+{
+    position: relative;
+    left: 6px;
+}
+.offer__middle
+{
+    display: inline-block;
     width: 288px;
     height: 460px;
     background-color: white;
@@ -40,23 +66,21 @@ body
     border-radius: 6px;
     box-shadow: 0 0 5px 0 #0874b2;
     margin-bottom: 40px;
-    position: relative;
-    left: 50%;
-    margin-left: -144px;
     z-index: 2;
-
+    overflow: hidden;
+    position: relative;
 }
-.offer-middle-top
+.offer__middle__top
 {
-    height: 72px;
+    height: 74px;
     background-color: #ee8129;
 }
-.offer-left-top
+.offer__left__top
 {
     height: 63px;
     background-color: #37c2d3;
 }
-.offer-right-top
+.offer__right__top
 {
     height: 63px;
     background-color: #1cb79a;
@@ -71,24 +95,22 @@ body
     line-height: 63px;
     color: white;
 }
-.price h3
+.offer__price h3
 {
     color: #3f4042;
     font-weight: normal;
-
-
 }
-.offers h3 span
+.offer__price h3 span
 {
     color: #35495a;
     font-size: 72px;
     line-height: 24px;
 }
-span sup
+.offer__price span sup
 {
     font-size: 36px;
 }
-span sub
+.offer__price span sub
 {
     font-size: 18px;
     text-transform: capitalize;
@@ -115,7 +137,7 @@ span sub
     content: url("images/Shape.png");
     margin-right: 20px;
 }
-.offers li:nth-child(odd)
+.offers li
 {
     background-color: #edf5fd;
 
@@ -124,47 +146,23 @@ span sub
 {
     background-color: #f5f5f6;
 }
-input
+.offers input
 {
-    background: #ee8129;
+    background: #3371a6;
     color: white;
     width: 252px;
     height: 38px;
-    margin-left: 18px;
     border: none;
     border-radius: 3px;
-    box-shadow: 0px 3px 0 0 #b3560b;
+    box-shadow: 0px 3px 0 0 #16436a;
     font-size: 14px;
     font-weight: bold;
     margin-top: 20px;
+    margin-left: 18px;
 }
-.offer-right-button, .offer-left-button
+input[class="offer__middle__button"]
 {
-    background: #3371a6;
-    box-shadow: 0px 3px 0 0 #16436a;
+    background: #ee8129;
+    box-shadow: 0px 3px 0 0 #b3560b;
 }
-.offer-right, .offer-left
-{
-    width: 288px;
-    height: 440px;
-    background-color: white;
-    border: solid 1px #e8eaec;
-    border-radius: 3px;
-    z-index: 1;
-    overflow: hidden;
-}
-.offer-left
-{
-    position: absolute;
-    right: 50%;
-    margin-right: 143px;
-    top: 128px;
 
-}
-.offer-right
-{
-    position: absolute;
-    left: 50%;
-    margin-left: 151px;
-    top: 128px;
-}
