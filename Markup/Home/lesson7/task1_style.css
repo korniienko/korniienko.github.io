@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.sivtsev
+{
+    font-family: "Arial", sans-serif;
+    width: 1024px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 500px;
+}
+p{
+    margin-bottom: 1em;
+    text-align: justify;
+    text-align-last: justify;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 10px 10px #555;
+}
+.sight01
+{
+    margin-bottom: .5ex;
+}
+.sight02
+{
+    font-size: 250px;
+    margin-bottom: 1ex;
+}
+.sight03
+{
+    font-size: 166px;
+
+}
+.sight04
+{
+    font-size: 125px;
+}
+.sight05
+{
+    font-size: 100px;
+}
+.sight06
+{
+    font-size: 83px;
+}
+.sight07
+{
+    font-size: 71px;
+}
+.sight08
+{
+    font-size: 62px;
+}
+.sight09
+{
+    font-size: 55px;
+}
+.sight10
+{
+    font-size: 50px;
+}
+.sight15
+{
+    font-size: 33px;
+    margin-top: 1em;
+
+}
+.sight20
+{
+    font-size: 25px;
+    padding-top: 1em;
+}
+.uline
+{
+    border-bottom: solid 3px #ffcccc;
+}
