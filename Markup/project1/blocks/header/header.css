@@ -1,0 +1,54 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    width: 100%;
+    background-color: white;
+}
+.header__inner
+{
+    width: 1024px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo
+{
+    float: left;
+    margin-top: 30px;
+}
+.menu
+{
+    list-style: none;
+    float: right;
+}
+.menu li
+{
+    display: inline-block;
+
+}
+a[class^="menu__item"]
+{
+    text-decoration: none;
+    display: block;
+    color: #989898;
+    font-family: Open Sans Semi, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 60px 10px 40px 10px;
+}
+a[class="menu__item_first"]
+{
+    color: #3070a8;
+    border-bottom: solid 3px #3070a8;
+}
+
+.menu a:hover
+{
+    color: #ee8129;
+    cursor: pointer;
+}
+
