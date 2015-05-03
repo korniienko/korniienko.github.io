@@ -1,0 +1,53 @@
+.middle
+{
+    width: 100%;
+    background-image: url("middle-cektion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.middle__inner
+{
+    width: 1024px;
+    margin: 0 auto;
+
+}
+.middle__text
+{
+    width: 66%;
+    font-family: Open Sans, sans-serif;
+    padding-bottom: 50px;
+}
+.middle__title
+{
+    color: #ee8129;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: Futura Bk BT, sans-serif;
+    line-height: 48px;
+    letter-spacing: -1px;
+    padding-top: 50px;
+}
+.middle__text p
+{
+    font-style: italic;
+    line-height: 48px;
+    font-size: 19px;
+    color: white;
+    padding-bottom: 30px;
+}
+.middle__list
+{
+    list-style: disc;
+    color: #999;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.middle__list li
+{
+    padding-bottom: 20px;
+}
+.middle__list li:nth-child(even)
+{
+    color: #3070a8;
+}

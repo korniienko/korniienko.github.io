@@ -1,0 +1,50 @@
+. services
+{
+    width: 100%;
+    background-color: white;
+}
+.services__inner
+{
+    width: 1024px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.services__title
+{
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #35495a;
+    padding: 50px 0;
+    text-align: center;
+}
+.services__img
+{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+}
+.service__block
+{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    font-family: Myriad Pro, sans-serif;
+}
+.block__text
+{
+    color: #989898;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 20px 10px 50px 10px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.block__title
+{
+    color: #3070A8;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-top: 30px;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 10px 0;
+}
+
+.header
+{
+    width: 100%;
+    background: #a64dff;
+    height: 40px;
+}
+
+#content
+{
+    position: relative;
+    width: 1200px;
+    background-color: green;
+    margin:  0 0 0 80px;
+}
+
+.top-menu ul
+{
+    list-style:none;
+    padding-left: 0px;
+}
+
+.top-menu ul li
+{
+    float:left;
+}
+
+.top-menu ul li a
+{
+    color:white;
+    text-decoration:none;
+    font-family: Impact;
+    text-transform:uppercase;
+    line-height:20px;
+    font-size:18px;
+    padding:9px 30px 9px 30px;
+}
+.top-menu ul li a:hover
+{
+    background-color: #eee;
+    color: #a0a0a0;
+}

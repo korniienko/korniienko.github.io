@@ -1,0 +1,53 @@
+.intro
+{
+    width: 100%;
+    background-image: url("intro-baner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.intro__inner
+{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 150px 0;
+    text-align: center;
+    font-family: Futura Md BT, sans-serif;
+    color: white;
+}
+.intro__anotation__second
+{
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.intro__anotation__first
+{
+    font-size: 36px;
+    font-weight: 300;
+}
+.intro__anotation__third
+{
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    margin: 20px 0 40px 0;
+}
+.intro__button
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 245px;
+    border: solid 1px #989898;
+    margin: 0 auto;
+    font-family: Open Sans Semi, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+.intro__button:hover
+{
+    color: #ee8129;
+    border-color: #ee8129;
+    cursor: pointer;
+}
