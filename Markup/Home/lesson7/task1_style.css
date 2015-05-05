@@ -14,9 +14,15 @@
 p{
     margin-bottom: 1em;
     text-align: justify;
-    text-align-last: justify;
+    /*text-align-last: justify;*/
     color: rgba(0,0,0,0);
-    text-shadow: 0 0 10px 10px #555;
+    /*text-shadow: 0 0 10px 10px #555;*/
+    text-shadow: 0 0 10px #555;
+}
+p:after {
+    display: inline-block;
+    width: 100%;
+    content: "";
 }
 .sight01
 {

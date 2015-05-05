@@ -157,8 +157,6 @@ input[class="offer__middle__button"]
 }
 .offers input:hover
 {
-    font-size: 1.1em;
-    cursor: pointer;
     margin-top: 23px;
     box-shadow: none;
 }
