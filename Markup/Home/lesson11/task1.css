@@ -1,0 +1,233 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@font-face {
+    font-family: "FontAwesome";
+    src: url("fonts/fontawesome-webfont.eot?v=4.3.0");
+    src: url("fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #1cb79a;
+}
+.work
+{
+    position: relative;
+    z-index: 1;
+
+    overflow: hidden;
+
+    width: 100%;
+
+    background-color: white;
+}
+.work__inner
+{
+    font-family: 'Arial', sans-serif;
+    font-size: 41px;
+
+    position: relative;
+
+    min-width: 390px;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 125px;
+
+    text-align: center;
+
+    color: #2d3950;
+}
+.work__inner h3
+{
+    font-size: 41px;
+
+    padding-top: 40px;
+}
+.work__inner h6
+{
+    font-size: 15px;
+    font-weight: 100;
+
+    margin-top: 15px;
+    margin-bottom: 40px;
+
+    color: #909090;
+}
+.work__item
+{
+    font-size: 0;
+
+    position: relative;
+
+    display: inline-block;
+    overflow: hidden;
+
+    margin: 15px;
+
+    vertical-align: top;
+}
+.work__foto
+{
+    width: 360px;
+    height: 260px;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.work__mask
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 360px;
+    height: 260px;
+
+    opacity: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: rgba(37,166,247, .9);
+}
+.button__box
+{
+    position: relative;
+    top: 107px;
+
+    margin: 0 auto;
+
+    opacity: 0;
+}
+.button__zoom,
+.button__link
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+
+    border: solid 1px white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.button__link:after
+{
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 40px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    content: '\f0c1';
+
+    color: white;
+}
+.button__zoom:after
+{
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 40px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    content: '\f00e';
+
+    color: white;
+}
+.button__zoom:hover,
+.button__link:hover
+{
+    background-color: rgba(37,166,247,1);
+}
+.work__item:hover .work__mask,
+.work__item .button__box
+{
+    opacity: 1;
+}
+
+.work__preview
+{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+
+    background-color: rgba(255,255,255,.9);
+}
+.work__big
+{
+    position: relative;
+
+    width: 1140px;
+    height: 550px;
+    margin: 235px auto 0;
+
+    border: solid 3px #999;
+    border-radius: 3px;
+}
+
+.work__big__img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+}
+.work__close
+{
+    position: absolute;
+    top: -20px;
+    left: 95%;
+
+    overflow: hidden;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 3px;
+    background-color: rgb(37,166,247);
+}
+.work__close:after
+{
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 40px;
+
+    position: relative;
+
+    display: block;
+
+    content: '\f00d';
+    text-align: center;
+
+    color: white;
+}
+.work__close:hover
+{
+    background-color: #f74c26;
+}
