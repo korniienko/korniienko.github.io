@@ -1,0 +1,105 @@
+.testimonials
+{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 5px;
+    position: relative;
+    background-color: white;
+    color: #333;
+}
+.testimonials h2
+{
+    font-size: 25px;
+    line-height: 25px;
+    padding: 40px 0 30px 0;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #3498db;
+    text-align: left;
+}
+.testimonial__arrow
+{
+    position: absolute;
+    top: 40px;
+    right: 5px;
+}
+.arrow
+{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: solid 1px #e6e6e6;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #333;
+}
+.arrow_left
+{
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background: #f2f2f2;
+}
+.arrow_right
+{
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    color: #888;
+}
+.arrow:hover
+{
+    color: red;
+    cursor: pointer;
+}
+.testimonial_item
+{
+    width: 75%;
+    padding: 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+.testimonial_text
+{
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+.testimonial_name
+{
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+    margin: 0;
+    padding: 10px;
+}
+.testimonial_name:before
+{
+    content: "\2014";
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+.testimonial_item:after
+{
+    content: "\201D";
+    font-size: 60px;
+    line-height: 30px;
+    margin-top: 15px;
+    color: #f2f2f2;
+    float: right;
+}
+.testimonial_item:before
+{
+    content: "\201C";
+    font-size: 60px;
+    line-height: 30px;
+    color: #f2f2f2;
+    float: left;
+}
