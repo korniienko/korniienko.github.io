@@ -6,8 +6,9 @@ footer
 }
 .footer__inner
 {
-    width: 1000px;
+    width: 990px;
     margin: 0 auto;
+    padding: 0 5px;
 }
 .footer__logo
 {
@@ -72,4 +73,71 @@ footer
 {
     color: red;
     cursor: pointer;
+}
+@media (max-width: 800px) {
+    .footer__inner
+    {
+        width: 758px;
+    }
+    .footer__connect p
+    {
+        display: block;
+        width: 450px;
+        line-height: 18px;
+    }
+}
+@media (max-width: 320px){
+    .footer__inner
+    {
+        width: 320px;
+        margin: 0 auto;
+        /*padding: 33px 0 10px;*/
+    }
+    .footer__logo
+    {
+        width: 100%;
+        padding: 0;
+    }
+    .footer__logo img
+    {
+        display: block;
+        width: 54px;
+        height: 54px;
+        margin: 33px auto 0;
+    }
+    .footer__logo p
+    {
+        display: none;
+    }
+    .footer__logo:after
+    {
+        content: "abc university";
+        display: block;
+        width: 170px;
+        margin: 0 auto;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 42px;
+        border-bottom: solid 1px #2980b9;
+    }
+    .footer__connect
+    {
+        display: block;
+        width: 230px;
+        margin: 0 auto;
+        border-left: none;
+        padding: 10px 0 70px;
+    }
+    .footer__connect span
+    {
+        margin-right: 5px;
+        margin-left: 40px;
+    }
+    .footer__connect p
+    {
+        margin-top: 20px;
+        width: 230px;
+        text-align: center;
+    }
 }
