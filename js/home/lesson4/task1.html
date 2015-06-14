@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>task1</title>
+    <script>
+        function fib(n) {
+            var a = 1, b = 1;
+            for (var i = 3; i <= n; i++) {
+                var c = a + b;
+                a = b;
+                b = c;
+            }
+            return b;
+        }
+       var result = fib(+prompt('Введите число'));
+        alert (result);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

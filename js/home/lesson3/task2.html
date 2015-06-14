@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>task2</title>
+    <script>
+        var min = +prompt('Введите начальное значение',2);
+        var max = +prompt('Введите конечное значение',10);
+        primeNumber:
+                for (var i = min; i < max; i++) {
+
+                    for (var j = 2; j < i; j++) {
+                        if (i % j == 0) continue primeNumber;
+                    }
+
+                    alert( i );
+                }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
