@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>task2</title>
+    <script>
+        function checkSpam(str) {
+            var lowerStr = str.toLowerCase();
+
+            return !!(~lowerStr.indexOf('spam') || ~lowerStr.indexOf('sex'));
+        }
+
+        alert( checkSpam('get new Sex videos') );
+        alert( checkSpam('[SPAM] How to earn fast money?') );
+        alert( checkSpam('New PSD template') );
+    </script>
+</head>
+<body>
+
+</body>
+</html>
